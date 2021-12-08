@@ -1,0 +1,7 @@
+div .none {
+  display: none;
+}
+img .none {
+  width: 0;
+  height: 0;
+}

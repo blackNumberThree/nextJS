@@ -14,3 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
+.wrapper {
+  margin: 10px;
+}
+.red {
+  background-color: red;
+}
