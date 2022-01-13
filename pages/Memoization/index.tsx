@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import ToggleBar from "../components/ToggleBar";
+import ToggleBar from "../../components/ToggleBar";
 
 function FirstPage() {
   const [counter, setCounter] = useState(0);
@@ -7,7 +7,7 @@ function FirstPage() {
   function duble(params: number) {
     setTimeout(() => console.log("useDouble"), 3000);
 
-    return 545;
+    return params * 2;
   }
 
   //мемоизация результата работы функции

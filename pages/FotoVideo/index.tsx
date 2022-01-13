@@ -1,6 +1,6 @@
 // import Image from "./Image";
 import { FC } from "react";
-import litleImage from "./foto.png";
+// import litleImage from "/img/foto.png";
 import Image from "next/image";
 const FourPage: FC = () => {
   return (
@@ -8,9 +8,9 @@ const FourPage: FC = () => {
       <video controls>
         <source src="/star.mp4" type="video/mp4" />
       </video>
-      <Image src={litleImage} />
+      {/* <Image src={litleImage} /> */}
       <div>
-        <img src={"./1111.jpg"} />
+        <img src={"/1111.jpg"} />
       </div>
     </>
   );

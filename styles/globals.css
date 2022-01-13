@@ -20,3 +20,26 @@ a {
 .red {
   background-color: red;
 }
+input {
+  width: 200px;
+  border-radius: 100px;
+  padding: 0 15px;
+  height: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  align-items: center;
+  color: #535d8a;
+}
+input:valid {
+  background-color: rgb(210, 255, 210);
+}
+div input:invalid {
+  width: 1000px;
+  background-color: rosybrown;
+}
+input:invalid {
+  background-color: rgb(255, 227, 227);
+}
