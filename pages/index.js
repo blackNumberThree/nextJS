@@ -28,8 +28,8 @@ export default function Home() {
       </Link>
       <br />
 
-      <Link href="/testingTS">
-        <a>testingTS</a>
+      <Link href="/mapBox">
+        <a>mapBox</a>
       </Link>
     </div>
   );

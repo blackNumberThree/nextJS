@@ -1,6 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import styles from "./toggleBar.module.css";
+import "mapbox-gl/dist/mapbox-gl.css";
+
 function ToggleBar() {
   let [currentStyle, setCurrentStyle] = useState(true);
   const changeColor = () => setCurrentStyle(!currentStyle);
